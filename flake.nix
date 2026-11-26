@@ -1,5 +1,5 @@
 {
-  description = "ChatMix wheel and battery level for the SteelSeries Arctis 7+ on NixOS";
+  description = "ChatMix wheel and battery level for the SteelSeries Arctis 7+ family on NixOS";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 

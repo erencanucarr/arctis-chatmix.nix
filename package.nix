@@ -4,6 +4,7 @@
   gnugrep,
   jq,
   pipewire,
+  pulseaudio,
   wireplumber,
 }:
 writeShellApplication {
@@ -13,11 +14,12 @@ writeShellApplication {
     gnugrep
     jq
     pipewire
+    pulseaudio
     wireplumber
   ];
   text = builtins.readFile ./arctis-chatmix.sh;
   meta = {
-    description = "Turns the Arctis 7+ ChatMix wheel into a game/chat mixer on PipeWire";
+    description = "Turns the ChatMix wheel of the Arctis 7+ family into a game/chat mixer on PipeWire";
     mainProgram = "arctis-chatmix";
   };
 }
